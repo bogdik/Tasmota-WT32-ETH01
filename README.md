@@ -52,11 +52,12 @@
 
 * On version 14.3.0.7 Eth interface start automate
 * On version 14.3.0.7 you may set Static IP to ETH
-    EthIpAddress
-    EthGateway
-    EthSubnetmask (aligned to D_JSON_SUBNETMASK)
-    EthDNSServer[1|2]
-  And if need off WIFI may off with console command wifi off
+  
+    `EthIpAddress`
+    `EthGateway`
+    `EthSubnetmask` (aligned to D_JSON_SUBNETMASK)
+    `EthDNSServer[1|2]`
+  And if need off WIFI may off with console command `wifi off`
 
   
 * In the Web UI, go to [Configuration]->[Configuration Module] and select the module type "WT32-Eth01" as shown below, then click save button and wait for auto restart.
