@@ -48,6 +48,17 @@
 
 * Remove the jumper, then power off and power on to the WT32-ETH01 board. [Follow this guide and access to the Web UI](https://tasmota.github.io/docs/Getting-Started/#initial-configuration)
 
+* You may flash 9.5.0 and update to 14.3.0.7 from web [Firmware Upgrade] select firmware.bin and click Start upgrade
+
+* On version 14.3.0.7 Eth interface start automate
+* On version 14.3.0.7 you may set Static IP to ETH
+    EthIpAddress
+    EthGateway
+    EthSubnetmask (aligned to D_JSON_SUBNETMASK)
+    EthDNSServer[1|2]
+  And if need off WIFI may off with console command wifi off
+
+  
 * In the Web UI, go to [Configuration]->[Configuration Module] and select the module type "WT32-Eth01" as shown below, then click save button and wait for auto restart.
 
 ![tasmota configure module](./picture/tasmota_configure_module.png)
