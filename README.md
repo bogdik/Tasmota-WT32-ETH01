@@ -5,7 +5,7 @@
 * OS: macOS. For Windows please refer [This](https://github.com/arendst/Tasmota/issues/9496#issuecomment-750148023).
 * ESP32 Ethernet board: WT32-ETH01 v1.2.
 * USB to UART Converter board.
-* Tasmota firmware version: 9.5.0.
+* Tasmota firmware version: 9.5.0 and 14.3.0.7.
 * [ESP Tools](https://tasmota.github.io/docs/Esptool/).
 
 ## Hardware Connection
