@@ -60,6 +60,7 @@
     `EthSubnetmask` (aligned to D_JSON_SUBNETMASK)
   
     `EthDNSServer[1|2]`
+  
   If need back DHCP console command `EthIpAddress 0.0.0.0`
   
   And if need off WIFI may off with console command `wifi off`
