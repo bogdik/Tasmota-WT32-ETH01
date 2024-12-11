@@ -54,9 +54,13 @@
 * On version 14.3.0.7 you may set Static IP to ETH
   
     `EthIpAddress`
+  
     `EthGateway`
+  
     `EthSubnetmask` (aligned to D_JSON_SUBNETMASK)
+  
     `EthDNSServer[1|2]`
+  
   And if need off WIFI may off with console command `wifi off`
 
   
