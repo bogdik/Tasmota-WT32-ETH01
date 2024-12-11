@@ -50,7 +50,7 @@
 
 * You may flash 9.5.0 and update to 14.3.0.7 from web [Firmware Upgrade] select firmware.bin and click [Start upgrade] ater Upgrade go to [Configuration] and click [Reset] for  clean old configuration (optional)
 
-* On version 14.3.0.7 Eth interface start automate
+* On version 14.3.0.7 Eth interface start automate (no need next step e.g select select the module type "WT32-Eth01")
 * On version 14.3.0.7 you may set Static IP to ETH
   
     `EthIpAddress`
