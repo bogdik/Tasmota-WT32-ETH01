@@ -43,6 +43,8 @@
   ```bash
   esptool.py --chip esp32 --port /dev/cu.usbserial-1431310 --baud 115200 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x1000 bootloader_dout_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32.bin
   ```
+  if want 14.3.0.7 replace tasmota32.bin to ../wt32-eth01/firmware.bin
+  
 * After loaded the Tasmota firmware, if successful, you should see the message similar to the following.
 ![log](./picture/log.png)
 
