@@ -1,4 +1,4 @@
-# Tasmota-WT32-ETH01
+# Tasmota-WT32-ETH01 and WT32-ETH01-EVO
  Guide to flash Tasmota firmware into WT32-ETH01
 
 ## My Setup
